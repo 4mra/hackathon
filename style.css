@@ -38,6 +38,14 @@ p1{color:#FF8632;
 text-align: center;}
 u{color:#FF8632;}
 
+.images{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: centers;
+}
+
 .problems {
     display: flex;
     gap: 30px;
