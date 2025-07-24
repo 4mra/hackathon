@@ -46,6 +46,17 @@ u{color:#FF8632;}
     align-items: centers;
 }
 
+.image{background: #FFEA78;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(255, 107, 157, 0.15);
+    max-width: 300px;
+    transition: transform 0.3s ease;}
+
+.image:hover{
+    transform: translateY(10px);
+}
+
 .problems {
     display: flex;
     gap: 30px;
