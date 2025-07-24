@@ -1,0 +1,68 @@
+h1{color: #FF8632;
+font-size:350%;
+text-align:center; }
+h2{background-color: #FFEA78;
+font-size:200%;
+color: #FF8632;}
+u{color:#FF8632}
+body{background-color:#F8F3CE;}
+p{font-size: 175%}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #FFEA78;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #FF8632;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FF8632;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FF8632;
+  color: white;
+}
+p1{color:#FF8632;
+text-align: center;}
+u{color:#FF8632;}
+
+.problems {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+p2{font-size: 130%}
+.problem {
+    background: #FFEA78;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(255, 107, 157, 0.15);
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+.problem:hover {
+    transform: translateY(-10px);
+}
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: #FFEA78;
+    color: #FF8632;
+    font-weight: bold;
+    font-size: 1rem;
+}
+a{color: #FF9BB9}
